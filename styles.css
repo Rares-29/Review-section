@@ -1,0 +1,142 @@
+/********************** Tags ***************************/
+
+body
+{
+  font-family: 'Overpass', sans-serif;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+  color: white;
+  margin-bottom:0;
+}
+
+p
+{
+  margin-top:0.5rem;
+  font-size:15px;
+  color: hsl(217, 12%, 63%);
+  line-height: 1.5rem;
+}
+
+section
+{
+ background-color:  hsl(216, 12%, 8%);
+ height:400px;
+ margin:60px 25px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+section .div-boss {
+  margin: auto;
+  background-color: hsl(213, 19%, 18%);
+  width:300px;
+  padding: 2rem;
+  border-radius:20px;
+}
+
+
+/********************** Classes ***********************/
+
+.container
+{
+  display:flex;
+  padding: 0;
+}
+
+
+.Submit
+{
+  margin-top:7%;
+  display:block;
+  cursor:pointer;
+  width:100%;
+  height:35px;
+  background-color:hsl(25, 97%, 53%);
+  border:none;
+  color: white;
+  padding-top: 5px;
+  font-size:1.2 rem;
+  letter-spacing:1.5px;
+  padding-bottom:5px;
+  border-radius:15px;
+}
+
+.Submit:hover
+{
+  background-color:white;
+  color:hsl(25, 97%, 53%);
+}
+
+
+.f-btn
+{
+ margin:auto;
+ background-color:hsl(213, 12%, 33%);
+ color:hsl(217, 12%, 63%);
+ border: none;
+ padding:5px;
+ height:35px;
+ width:35px;
+ border-radius:70%;
+ cursor:pointer;
+}
+
+.active
+{
+  background-color:hsl(25, 97%, 53%);
+  color:white;
+
+}
+
+.f-btn:hover
+{
+  background-color: hsl(217, 12%, 63%);
+  color:white;
+}
+
+
+.star-img
+{
+ position:absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+.star-div
+{
+
+  background-color:hsl(213, 12%, 33%);
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  text-align:center;
+  position: relative;
+}
+
+.hidden
+{
+  visibility:hidden;
+  position:absolute;
+}
+
+
+
+
+.thank-you
+{
+  text-align:center;
+}
+
+.selector
+{
+  color: hsl(25, 97%, 53%);
+}
+
+
+/********************** IDs ***************************/
